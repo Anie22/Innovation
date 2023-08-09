@@ -102,7 +102,7 @@ img{
   .none{
     display: none;
   }
-  .fixed{
+  .nav-fixed{
     position: fixed;
   }
 }
