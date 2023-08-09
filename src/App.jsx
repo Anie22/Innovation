@@ -1,4 +1,7 @@
+import React from 'react';
 import { useState, useEffect } from 'react'
+import { MdOutlineKeyboardDoubleArrowRight } from 'react-icons/md';
+import { HiSearch } from 'react-icons/hi';
 import Peter from './assets/unsplash.png'
 import FirstWorker from './assets/Web Const Worker.jpg'
 import SecondWorker from './assets/Web Const Worker1.jpg'
@@ -52,13 +55,13 @@ function App() {
                 {(toggleMenu || screenWidth > 600) && (
                   <div onClick={toggleNav} className="nav-tweet-holder nav-fixed">
                     <div className="sub-nav-tweet">
-                      <ul className='flex gap-5'>
+                      <ul className='flex gap-5 items-center'>
                         <li>Home</li>
                         <li>About</li>
                         <li>Project</li>
                         <li>Blog</li>
                         <li>Contact</li>
-                        <li></li>
+                        <li><HiSearch size={20} /></li>
                       </ul>
                     </div>
                   </div>
@@ -328,7 +331,7 @@ function App() {
               </div>
               <div className="f-e-input">
                 <input type="text" placeholder='Your email address' />
-                <button type="submit"></button>
+                <button type="submit"><MdOutlineKeyboardDoubleArrowRight size={24} className='fill-gray-400'/></button>
               </div>
             </div>
           </div>
