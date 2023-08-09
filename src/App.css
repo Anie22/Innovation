@@ -102,6 +102,9 @@ img{
   .none{
     display: none;
   }
+  .fixed{
+    position: fixed;
+  }
 }
 
 .sub-nav-tweet{

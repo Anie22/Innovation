@@ -50,7 +50,7 @@ function App() {
                   </div>
                 </div>
                 {(toggleMenu || screenWidth > 600) && (
-                  <div onClick={toggleNav} className="nav-tweet-holder">
+                  <div onClick={toggleNav} className="nav-tweet-holder fixed">
                     <div className="sub-nav-tweet">
                       <ul className='flex gap-5'>
                         <li>Home</li>
